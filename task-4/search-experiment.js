@@ -10,7 +10,7 @@ function linear_search(array, target) {
       return i;
     }
   }
-  return "unsuccessful";
+  return -1;
 }
 
 function binary_search(array, target) {
@@ -29,7 +29,7 @@ function binary_search(array, target) {
     }
   }
 
-  return "unsuccessful";
+  return -1;
 }
 
 const target = 123456789;
